@@ -23,7 +23,7 @@ body{
     margin-left: 4vw;
     bottom: 10vh;  
 }
-strong{
+ .intro strong{
     width: 40%;
     position: absolute;
     top: 15vh;
@@ -49,52 +49,122 @@ strong{
     bottom: 33vh;
 }
 .collapsible{
-    width: 50%;
+    top: 4vh;
+    width: 3.3%;
+    padding: 0.5%;
     color: white;
-    display: flex;
     position: relative;
     margin-left: 4vw;
-    font-size: 1.1em;
-    top: -10vh;
+    font-size: 1.5em;
 }
 .collapsible:hover{
     background-color: white;
-    color: #646464;
+    color: black;
     transition: 1s;
     cursor: pointer;
 }
 .collapsible2{
-    width: 50%;
-    display: flex;
+    top: 4vh;
+    width: 3.3%;
+    padding: 0.5%;
     position: relative;
     margin-left: 4vw;
-    font-size: 1.1em;
-    top: -10vh;
+    font-size: 1.5em;
 }
 .collapsible2:hover{
-    background-color: white;
-    color: #B4B4B4;
+    background-color: grey;
+    color: white;
     transition: 1s;
     cursor: pointer;
 }
 .content{
+    padding: .3%;
     width: 40%;
-    color: white;
+    color: white; 
+    background-color: rgba(255,255,255,0.2);
     position: absolute;
     margin-left: 4vw;
-    margin-top: 10vh;
+    margin-top: 3vh;
     display: none;
     overflow: hidden;
     z-index: 2;
 }
 .content2{
+    padding: .3%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
     width: 40%;
     position: absolute;
     margin-left: 4vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: none;
     overflow: hidden;
     z-index: 2;
+}
+.playlist{
+    position: absolute;
+    right: 15vw;
+    top: 5.5vh;
+    z-index: 5;
+    color: white;
+}
+.list-title{
+    width: 120%;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5%;
+}
+.list-title:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    cursor: pointer; 
+}
+.list{
+    width: 300%;
+    background-color: rgba(255,255,255,0.2);
+    z-index: 5;
+    line-height: 90%;
+    display: none;
+    overflow: hidden;
+    padding: 5%;
+    position: absolute;
+}
+.playlist2{
+    position: absolute;
+    right: 15vw;
+    top: 5.5vh;
+    z-index: 5;
+}
+.list-title2{
+    width: 120%;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5%;
+}
+.list-title2:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    cursor: pointer; 
+}
+.list2{
+    color: white;
+    width: 300%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 5;
+    line-height: 90%;
+    display: none;
+    overflow: hidden;
+    padding: 5%;
+    position: absolute;
+}
+audio{
+    width: 100%;
+    padding: 5% 0 5% 0;
+    margin-bottom: -8%;
 }
 #slide3{
     background-color: #F0CACB;
@@ -152,6 +222,7 @@ strong{
     margin-top: 8.5vh;
     margin-left: 50vw;
 }
+
 .carousel-control-prev{
     margin-left: -5vw;
     height: 20%;
