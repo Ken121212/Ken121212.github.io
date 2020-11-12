@@ -56,6 +56,7 @@ body{
     position: relative;
     margin-left: 4vw;
     font-size: 1.5em;
+    border-radius: 0.5vw;
 }
 .collapsible:hover{
     background-color: white;
@@ -70,6 +71,7 @@ body{
     position: relative;
     margin-left: 4vw;
     font-size: 1.5em;
+    border-radius: 0.5vw;
 }
 .collapsible2:hover{
     background-color: grey;
@@ -88,6 +90,7 @@ body{
     display: none;
     overflow: hidden;
     z-index: 2;
+    border-radius: 0.5vw;
 }
 .content2{
     padding: .3%;
@@ -100,6 +103,7 @@ body{
     display: none;
     overflow: hidden;
     z-index: 2;
+    border-radius: 0.5vw;
 }
 .playlist{
     position: absolute;
@@ -114,6 +118,7 @@ body{
     font-weight: bold;
     font-size: 1.5em;
     padding: 5%;
+    border-radius: 0.5vw;
 }
 .list-title:hover{
     background-color: white;
@@ -130,6 +135,7 @@ body{
     overflow: hidden;
     padding: 5%;
     position: absolute;
+    border-radius: 0.5vw;
 }
 .playlist2{
     position: absolute;
@@ -143,6 +149,7 @@ body{
     font-weight: bold;
     font-size: 1.5em;
     padding: 5%;
+    border-radius: 0.5vw;
 }
 .list-title2:hover{
     background-color: black;
@@ -160,14 +167,16 @@ body{
     overflow: hidden;
     padding: 5%;
     position: absolute;
+    border-radius: 0.5vw;
 }
 audio{
     width: 100%;
     padding: 5% 0 5% 0;
     margin-bottom: -8%;
+    opacity: 0.5;
 }
 #slide3{
-    background-color: #F0CACB;
+    background-color: #F5C5C6;
 }
 #slide3 h1{
     color: white;
@@ -231,7 +240,7 @@ audio{
 }
 .carousel-control-prev-icon{
     background-image: none;
-    margin-left: 10vw;
+    margin-left: 11vw;
 }
 .carousel-control-next{
     height: 20%;
@@ -241,5 +250,5 @@ audio{
 }
 .carousel-control-next-icon{
     background-image: none;
-    margin-right: -20vw;
+    margin-right: -22vw;
 }
