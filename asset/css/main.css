@@ -57,11 +57,11 @@ body{
     margin-left: 4vw;
     font-size: 1.5em;
     border-radius: 0.5vw;
+    transition: 1s;
 }
 .collapsible:hover{
     background-color: white;
     color: black;
-    transition: 1s;
     cursor: pointer;
 }
 .collapsible2{
@@ -72,15 +72,15 @@ body{
     margin-left: 4vw;
     font-size: 1.5em;
     border-radius: 0.5vw;
+    transition: 1s;
 }
 .collapsible2:hover{
     background-color: grey;
     color: white;
-    transition: 1s;
     cursor: pointer;
 }
 .content{
-    padding: .3%;
+    padding: .5% .5% .5% .8%;
     width: 40%;
     color: white; 
     background-color: rgba(255,255,255,0.2);
@@ -92,8 +92,11 @@ body{
     z-index: 2;
     border-radius: 0.5vw;
 }
+#content-two{
+    color: black; 
+}
 .content2{
-    padding: .3%;
+    padding: .5% .5% .5% .8%;
     color: white;
     background-color: rgba(0,0,0,0.3);
     width: 40%;
@@ -119,11 +122,11 @@ body{
     font-size: 1.5em;
     padding: 5%;
     border-radius: 0.5vw;
+    transition: 1s;
 }
 .list-title:hover{
     background-color: white;
     color: black;
-    transition: 1s;
     cursor: pointer; 
 }
 .list{
@@ -136,6 +139,9 @@ body{
     padding: 5%;
     position: absolute;
     border-radius: 0.5vw;
+}
+#list-two{
+    color: black;
 }
 .playlist2{
     position: absolute;
@@ -150,11 +156,11 @@ body{
     font-size: 1.5em;
     padding: 5%;
     border-radius: 0.5vw;
+    transition: 1s;
 }
 .list-title2:hover{
     background-color: black;
     color: white;
-    transition: 1s;
     cursor: pointer; 
 }
 .list2{
@@ -168,6 +174,38 @@ body{
     padding: 5%;
     position: absolute;
     border-radius: 0.5vw;
+}
+.weblink{
+    color: white;
+    transition: 1s;
+    text-decoration: none!important;
+    padding: 3%;
+
+}
+#fangroup2{
+    color: black;
+}
+.weblink:hover{
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    text-decoration: none!important;
+    border-radius: 0.5vw;
+
+}
+#fangroup2:hover{
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+
+}
+.fangroup{    
+    text-decoration: none!important;
+    margin-left: 4vw;
+    bottom: 1vh;
+    position: absolute;
+    font-weight: bolder;
+    width: 18%;
+    font-size: 1.5em;
+    font-family: "swansea";
 }
 audio{
     width: 100%;
@@ -207,6 +245,13 @@ audio{
     margin-left: 4vw;
     bottom: 8vh;
 }
+.singer{
+    transition: 1s;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+}
 #img-one{
     position: relative;
     width: 80%;
@@ -230,8 +275,18 @@ audio{
     width:60%;
     margin-top: 8.5vh;
     margin-left: 50vw;
+}.singer:hover{
+    filter: drop-shadow(5px 5px 5px grey);   
 }
 
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .carousel-control-prev{
     margin-left: -5vw;
     height: 20%;
